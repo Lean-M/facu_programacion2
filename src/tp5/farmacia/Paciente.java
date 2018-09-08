@@ -9,13 +9,17 @@ public class Paciente {
     private boolean tieneObreSocial;
     private ArrayList<String> sintomas;
     private ArrayList<String> alergias;
-    
+
     public void Paciente(String nombre, int dni){
+        this.sintomas = new ArrayList<>();
+        this.alergias = new ArrayList<>();
         this.tieneObreSocial = false;
         this.nombre = nombre;
         this.dni = dni;
     }
     public void Paciente(String nombre, int dni, String obraSocial){
+        this.sintomas = new ArrayList<>();
+        this.alergias = new ArrayList<>();
         this.tieneObreSocial = true;
         this.obraSocial = obraSocial;
         this.nombre = nombre;
@@ -25,15 +29,15 @@ public class Paciente {
     public String getNombre() {
         return nombre;
     }
-    
+
     public int getDni() {
         return dni;
     }
-    
+
     public String getObraSocial() {
         return obraSocial;
     }
-    
+
     public void setObraSocial(String obraSocial) {
         this.tieneObreSocial=true;
         this.obraSocial = obraSocial;
