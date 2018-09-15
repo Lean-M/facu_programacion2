@@ -4,7 +4,15 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/lean/NetBeansProjects/uni/src/tp5/Zoologico/Animal.java</file>
+            <file>file:/home/lean/NetBeansProjects/uni/src/tp5/Zoologico/COr.java</file>
+            <file>file:/home/lean/NetBeansProjects/uni/src/tp5/Zoologico/Condicion.java</file>
             <file>file:/home/lean/NetBeansProjects/uni/src/tp5/Zoologico/Jaula.java</file>
+            <file>file:/home/lean/NetBeansProjects/uni/src/tp5/Zoologico/CMayor.java</file>
+            <file>file:/home/lean/NetBeansProjects/uni/src/tp5/Zoologico/Zoo.java</file>
+            <file>file:/home/lean/NetBeansProjects/uni/src/tp5/Zoologico/CIgual.java</file>
+            <file>file:/home/lean/NetBeansProjects/uni/src/tp5/Zoologico/ElementoAtributoMultiple.java</file>
+            <file>file:/home/lean/NetBeansProjects/uni/src/tp5/Zoologico/CAnd.java</file>
+            <file>file:/home/lean/NetBeansProjects/uni/src/tp5/Zoologico/CMenor.java</file>
         </group>
     </open-files>
 </project-private>
