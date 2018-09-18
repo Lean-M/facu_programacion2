@@ -12,6 +12,10 @@ public class ElementoAtributoMultiple {
     public void setAtributo(String nombre, Object valor){
         this.atributo.putIfAbsent(nombre, valor);
     }
+
+    public HashMap getAtributo() {
+        return atributo;
+    }
     
     public ElementoAtributoMultiple get(String nombre){
         return (ElementoAtributoMultiple)this.atributo.get(nombre);

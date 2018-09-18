@@ -8,6 +8,10 @@ public class CIgual extends Condicion{
     
     @Override
     public boolean cumplir(ElementoAtributoMultiple e){
-        return false;
+        if(this.valor.equals(e.getAtributo().get(this.nombre))){
+            return true;
+        }else{
+            return false;
+        }
     }
 }

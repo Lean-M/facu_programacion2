@@ -8,6 +8,10 @@ public class CMenor extends Condicion{
     
     @Override
     public boolean cumplir(ElementoAtributoMultiple e){
-        return false;
+        if((double)this.valor > (double)e.getAtributo().get(this.nombre)){
+            return false;
+        }else{
+            return true;
+        }
     }
 }
